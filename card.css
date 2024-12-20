@@ -1,0 +1,87 @@
+.card {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr); 
+    gap: 20px;
+    justify-content: center;
+    height: 80%;
+    width: 70%;
+    margin-left: 250px;
+}
+
+.crd img{
+    width: 100%;
+}
+
+
+.crd{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.2s;
+    margin-bottom: 20px;
+}
+
+.crd:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.sariq{
+    width: 50%;
+    background: yellow;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.linesum{
+    font-size: 15px;
+    color: rgb(109, 104, 104);
+    padding-top: 20px;
+
+}
+
+.desc{
+    margin-left: 10px;
+}
+
+.footer{
+    width: 50%;
+}
+
+.mainfooter{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+
+}
+
+.btn{
+    border: 0.3px solid rgb(0, 0, 0);
+    font-size: 20px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 40px;
+    border-radius: 100px;
+}
+
+
+.btn:hover{
+    border: 0.3px solid rgb(0, 0, 0);
+    background: rgb(204, 202, 202);
+    font-size: 20px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 40px;
+    border-radius: 100px;
+}
+
+.crd img{
+    border-radius: 10px;
+    height: 250px;
+}
