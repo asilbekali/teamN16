@@ -16,6 +16,7 @@
 #slider img {
   object-fit: cover;
   border-radius: 10px;
+  transition: all 0.3s;
 }
 
 button {
