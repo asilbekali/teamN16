@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4a00e0;
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    margin-right: 20px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .user-actions a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .navbar-search {
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+  }
+  
+  .navbar-search input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .navbar-links {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #4a00e0;
+    font-size: 14px;
+  }
+  
+
+
+
+  
+
+  /* slider */
+
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #slider {
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  #slider img {
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.3s;
+  }
+  
+  button {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 350px;
+    background-color: white;
+    color: red;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  
+  .right {
+    right: 430px;
+  }
+  
+  .left {
+    left: 430px;
+  }
+  
+
+
+
+
+
+  /* card */
+
+
+
+  .card {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr); 
+    gap: 20px;
+    justify-content: center;
+    height: 80%;
+    width: 70%;
+    margin-left: 250px;
+}
+
+.crd img{
+    width: 100%;
+}
+
+
+.crd{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.2s;
+    margin-bottom: 20px;
+}
+
+.crd:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.sariq{
+    width: 90%;
+    background: yellow;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.linesum{
+    font-size: 15px;
+    color: rgb(109, 104, 104);
+    padding-top: 20px;
+
+}
+
+.desc{
+    margin-left: 10px;
+}
+
+.footer{
+    width: 50%;
+}
+
+.mainfooter{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+
+}
+
+.crd img{
+    border-radius: 10px;
+    height: 250px;
+}
+
+
+/* footer */
+
+
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+/* Footer styles */
+footer {
+    color: #5b5757;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+.biz-haqimizda,
+.foydali-narsalar,
+.tadbirkorlar,
+.ijtimoiy-tarmoqlar,
+.ilovani-yuklab-olish {
+    margin: 10px;
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+.ijtimoiy-tarmoqlar a i {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.ilovani-yuklab-olish h4 {
+    font-size: 16px;
+    margin: 10px 0;
+    /* color: rgb(182, 178, 178); */
+    transition: all 0.3s;
+}

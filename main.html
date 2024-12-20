@@ -4,8 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
+    <header class="navbar">
+        <div class="navbar-container">
+          <div class="logo">
+            <img src="https://uzum.com/images/services/market-horizontal-logo.png" alt="Uzum Market">
+            <span>uzum market</span>
+          </div>
+          <nav class="menu">
+            <ul>
+              <li><a href="#">Topshirish punktlari</a></li>
+              <li><a href="#">Savol-javob</a></li>
+              <li><a href="#">Buyurtmalarim</a></li>
+            </ul>
+          </nav>
+          <div class="user-actions">
+            <a href="#">Kirish</a>
+            <a href="#">Saralangan</a>
+            <a href="#">Savat</a>
+          </div>
+        </div>
+        <div class="navbar-search">
+          <input type="text" placeholder="Mahsulotlar va turkumlar izlash">
+        </div>
+        <div class="navbar-links">
+          <a href="#">Elektronika</a>
+          <a href="#">Maishiy texnika</a>
+          <a href="#">Kiyim</a>
+          <a href="#">Poyabzallar</a>
+          <a href="#">Yana</a>
+        </div>
+      </header>
+
+<!-- slider -->
+
+      <div id="slider">
+        <img id="slider-image" src="image-1.jpg" alt="Image-1">
+    </div>
+    <button class="left" id="arrow-left"><i class="fa-solid fa-angle-left"></i></button>
+    <button class="right" id="arrow-right"><i class="fa-solid fa-angle-right"></i></button>
+
     
+
+    <!-- card -->
+
+    <div class="card"></div>
+
+
+    <!-- footer -->
+
+
+    <footer>
+        <div class="biz-haqimizda">
+            <h3>Biz haqimizda</h3>
+            <p>Topshirish punktlari</p>
+            <p>Vakansiyalar</p>
+        </div>
+        <div class="foydali-narsalar">
+            <h3>Foydali narsalar</h3>
+            <p>Savol-javob</p>
+            <p>Siyosiy-huquqiy</p>
+        </div>
+        <div class="tadbirkorlar">
+            <h3>Tadbirkorlar</h3>
+            <p>Uchirish sotish</p>
+            <p>Topshirish punktlari ochish</p>
+        </div>
+        <div class="ijtimoiy-tarmoqlar">
+            <h3>Ijtimoiy tarmoqlarda</h3>
+            <a href="https://t.me/uzum_market"><i class="fa-brands fa-telegram fa-beat" style="color: #52b4ff;"></i></a>
+            <a href="https://www.instagram.com/uzum.market/"><i class="fa-brands fa-instagram fa-beat" style="color: #f75e1d;"></i></a>      
+            <a href="https://www.facebook.com/uzummarket"><i class="fa-brands fa-facebook fa-beat" style="color: #0a95ff;"></i></a>
+            <a href="https://www.youtube.com/channel/UCY3nNF2MUDKHrELA6LzbnHA"><i class="fa-brands fa-youtube fa-beat" style="color: #fd2617;"></i></a>
+        </div>
+        <div class="ilovani-yuklab-olish">
+            <h3>Ilovani yuklab olish</h3>
+            <a href="https://play.google.com/store/apps/details?id=uz.uzum.app">
+                <h4>Google Market <i class="fa-brands fa-google-play fa-fade" style="color: #0d2e68;"></i></h4>
+            </a>
+            <a href="https://apps.apple.com/ru/app/uzum-market-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD/id1640483056">
+                <h4>App Store <i class="fa-brands fa-app-store fa-fade" style="color: #081326;"></i></h4>
+            </a>
+        </div>
+    </footer>
+
+
+
+
+    <script src="./main.js"></script>
 </body>
 </html>
